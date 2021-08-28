@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Object Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg.jpg">
+    <h1 class="btn btn-info heading">Ai Object Finder
+        <br>
+        <span class="heading2">The input name which you will give should match the names present in Coco Ssd Model then
+            only it will be detected</span><br>
+            <span class="heading2">and the objects that you want to find will be highlited with red color and other object in color cyan</span>
+    </h1>
+    <center>
+        <br>
+        <label class="labelss">Object Name:</label>
+        <input type="text" id="objectNameToFind" class="form-control objectNameToFind">
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <br>
+        <br>
+        <button class="btn btn-danger" id="status"></button>
+        <button class="btn btn-warning" id="objectFoundStatus"></button>
+    </center>
+    <script src="code.js"></script>
+</body>
+
+</html>

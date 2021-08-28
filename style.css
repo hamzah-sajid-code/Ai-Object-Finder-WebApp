@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+.heading2{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.labelss{
+    font-size: 18px;
+} 
+.objectNameToFind{
+    width: 50%;
+}
+canvas{
+    border: 2.5px solid white;
+    margin-top: 300px;
+    border-radius: 20px;
+    box-shadow: 10px -5px 5px 5px black;
+}
